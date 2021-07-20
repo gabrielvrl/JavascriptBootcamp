@@ -79,3 +79,20 @@ if(num >= 1 && num <=10){
 else {
   console.log('Please guess a number between 1 and 10')
 }
+
+// Example 9
+let age = 78;
+
+if (age < 6 || age >= 65){
+  console.log("You get in for free!")
+}
+else {
+  console.log('You must pay!')
+}
+
+// Example 10
+let color = "";
+
+if (color === 'purple' || color === 'lilac' || color === 'violet'){
+  console.log('Great choice')
+}
