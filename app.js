@@ -49,3 +49,13 @@ if(password.length >= 6){
 else {
   console.log('Password must be longer!')
 }
+
+// Example 6
+let mystery = 5;
+
+if(mystery){
+  console.log("TRUTHY")
+}
+else {
+  console.log("FALSY")
+}
