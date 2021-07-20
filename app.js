@@ -96,3 +96,23 @@ let color = "";
 if (color === 'purple' || color === 'lilac' || color === 'violet'){
   console.log('Great choice')
 }
+
+// Example 11
+let loggedInUser;
+
+// If there isn't a logged in user
+
+if(!loggedInUser){
+  console.log('Get out of here!')
+}
+
+// Example 12
+let flavor = 'grape';
+
+if(flavor !== 'grape' && flavor !== 'cherry'){
+  console.log('We dont have that flavor!')
+}
+
+if(!(favlor === 'grape' || flavor === 'cherry')){
+  console.log("We only have grape and cherry!")
+}
