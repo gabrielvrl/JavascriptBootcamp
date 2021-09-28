@@ -116,3 +116,9 @@ if(flavor !== 'grape' && flavor !== 'cherry'){
 if(!(favlor === 'grape' || flavor === 'cherry')){
   console.log("We only have grape and cherry!")
 }
+
+// Example 13
+let x = 7;
+x == 7 || x === 3 && x > 10 // TRUE! && > ||
+
+// Example 14
